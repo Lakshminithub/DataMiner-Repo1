@@ -70,8 +70,7 @@ namespace DataMiner-Repo1_1
 		{
 			engine.GenerateInformation("Hello world!");
 			engine.GenerateInformation("Second Step");
-
-		engine.GenerateInformation("It's a sample application");
+			engine.GenerateInformation("It's a sample application");
 	}
 	}
 }
