@@ -69,7 +69,8 @@ namespace DataMiner-Repo1_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello world!");
+			engine.GenerateInformation("Second Step");
 
-		}
+	}
 	}
 }
