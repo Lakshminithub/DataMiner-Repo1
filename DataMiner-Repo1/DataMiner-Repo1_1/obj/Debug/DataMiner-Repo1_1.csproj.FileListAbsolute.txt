@@ -1,0 +1,2 @@
+D:\Lakshmi\DM\DataMiner-Repo1\DataMiner-Repo1\DataMiner-Repo1_1\obj\Debug\DataMiner-Repo1_1.csproj.AssemblyReference.cache
+D:\Lakshmi\DM\DataMiner-Repo1\DataMiner-Repo1\DataMiner-Repo1_1\obj\Debug\DataMiner-Repo1_1.csproj.CoreCompileInputs.cache
