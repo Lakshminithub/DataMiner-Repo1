@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{9A7E845B-BD76-4186-B168-ED36905E1443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7CE0CB75-5097-42FB-BF14-60569C4F875E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{E2A91798-F499-46DE-80A9-2CDE1DA73641}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{4B6F7640-A1E9-4735-8DB0-2B908A67DA3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{13D83807-400F-440B-8532-B509A8ED7299}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{4B967C9A-631F-4FA4-A6C8-0D1372343907}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{D7A1B25D-9717-4532-A715-D57B94488603}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataMiner-Repo1", "DataMiner-Repo1", "{BA393DC6-A405-4875-BCE1-45448F032DC7}"
+	ProjectSection(SolutionItems) = preProject
+		DataMiner-Repo1.xml = DataMiner-Repo1.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{7584884E-326A-4FB9-8E86-C0A453F95DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMiner-Repo1_1", "DataMiner-Repo1_1\DataMiner-Repo1_1.csproj", "{A395897E-6DD6-4D6B-AF92-F420E37A75EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A395897E-6DD6-4D6B-AF92-F420E37A75EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A395897E-6DD6-4D6B-AF92-F420E37A75EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A395897E-6DD6-4D6B-AF92-F420E37A75EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A395897E-6DD6-4D6B-AF92-F420E37A75EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13D83807-400F-440B-8532-B509A8ED7299} = {4B6F7640-A1E9-4735-8DB0-2B908A67DA3C}
+		{D7A1B25D-9717-4532-A715-D57B94488603} = {9A7E845B-BD76-4186-B168-ED36905E1443}
+		{BA393DC6-A405-4875-BCE1-45448F032DC7} = {7CE0CB75-5097-42FB-BF14-60569C4F875E}
+		{7584884E-326A-4FB9-8E86-C0A453F95DFA} = {BA393DC6-A405-4875-BCE1-45448F032DC7}
+		{A395897E-6DD6-4D6B-AF92-F420E37A75EC} = {7584884E-326A-4FB9-8E86-C0A453F95DFA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C908E53-5E78-43F4-87A5-15FDAC564866}
+	EndGlobalSection
+EndGlobal
